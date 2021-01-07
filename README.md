@@ -18,3 +18,14 @@
     ```ps
     ./scripts/config.ps1
     ```
+
+## Manual
+
+* Remove unwanted Startup Apps
+* Remove cruft from task bar
+* Enable WSL2 (https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+* Configure PowerToys
+    * FancyZones
+    * Capslock => Esc keyboard mapping
+* Login to Chrome
+* Login to VSCode
