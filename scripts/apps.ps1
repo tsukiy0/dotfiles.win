@@ -15,3 +15,9 @@ choco install -y docker-desktop
 choco install -y vlc
 choco install -y spotify
 choco install -y steam
+
+# jabba
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-Expression (
+  Invoke-WebRequest https://github.com/shyiko/jabba/raw/master/install.ps1 -UseBasicParsing
+).Content
