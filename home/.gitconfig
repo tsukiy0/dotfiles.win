@@ -3,4 +3,5 @@
 	name = tsukiy0
 [core]
 	editor = vim
+	autocrlf = input
     
