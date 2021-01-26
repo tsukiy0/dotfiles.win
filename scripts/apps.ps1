@@ -17,6 +17,8 @@ choco install -y vlc
 choco install -y spotify
 choco install -y steam
 choco install -y postman
+choco install -y jetbrainstoolbox
+choco install -y dbeaver
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
