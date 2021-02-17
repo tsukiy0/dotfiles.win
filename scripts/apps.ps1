@@ -6,6 +6,7 @@ choco install -y dotnet-5.0-sdk
 choco install -y awscli
 choco install -y vim
 choco install -y ffmpeg
+choco install -y ngrok
 
 # gui
 choco install -y microsoft-windows-terminal
