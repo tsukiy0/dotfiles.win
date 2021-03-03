@@ -20,6 +20,7 @@ choco install -y postman
 choco install -y jetbrainstoolbox
 choco install -y dbeaver
 choco install -y transmission
+choco install -y slack
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
