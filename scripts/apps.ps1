@@ -8,6 +8,7 @@ choco install -y awscli
 choco install -y vim
 choco install -y ffmpeg
 choco install -y ngrok
+choco install -y saml2aws
 
 # gui
 choco install -y microsoft-windows-terminal
