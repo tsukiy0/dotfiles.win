@@ -24,6 +24,7 @@ choco install -y dbeaver
 choco install -y transmission
 choco install -y slack
 choco install -y autohotkey
+choco install -y insomnia-rest-api-client
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
