@@ -7,8 +7,6 @@ choco install -y dotnetcore-2.2-sdk
 choco install -y awscli
 choco install -y vim
 choco install -y ffmpeg
-choco install -y ngrok
-choco install -y saml2aws
 
 # gui
 choco install -y microsoft-windows-terminal
@@ -18,12 +16,12 @@ choco install -y powertoys
 choco install -y docker-desktop
 choco install -y vlc
 choco install -y steam
-choco install -y postman
 choco install -y jetbrainstoolbox
 choco install -y dbeaver
 choco install -y transmission
 choco install -y slack
 choco install -y autohotkey
+choco install -y postman
 choco install -y insomnia-rest-api-client
 
 # jabba
