@@ -1,9 +1,7 @@
-# node
-$NodeVersion = "V14.15.3"
-if ((node --version) -ne $NodeVersion) {
-    nvm install $NodeVersion
-    nvm use $NodeVersion
-}
+# node 
+$NodeVersion = "V14.15.3" 
+nvm install $NodeVersion
+nvm use $NodeVersion
 
 npm install -g yarn
 
