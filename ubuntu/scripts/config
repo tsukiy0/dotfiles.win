@@ -4,3 +4,7 @@ set -euxo pipefail
 
 # zsh
 sudo chsh -s $(which zsh)
+
+# home
+stow --verbose --adopt --target ~ home
+
