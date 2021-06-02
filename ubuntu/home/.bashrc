@@ -5,6 +5,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # jabba
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
-
-# keyboard / mouse
-xset r rate 220 40
