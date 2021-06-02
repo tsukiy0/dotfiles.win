@@ -1,0 +1,7 @@
+[user]
+	email = tsukiy0@users.noreply.github.com
+	name = tsukiy0
+[core]
+	editor = vim
+	autocrlf = input
+    
