@@ -29,3 +29,20 @@
     * Capslock => Esc keyboard mapping
 * Login to Chrome
 * Login to VSCode
+
+## Ubuntu
+
+1. 
+    ```
+    cd ubuntu
+    ```
+1. Install apps
+
+    ```bash
+    ./scripts/apps
+    ```
+1. Configure
+
+    ```bash
+    ./scripts/config
+    ```
