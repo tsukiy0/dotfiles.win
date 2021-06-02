@@ -7,4 +7,3 @@ sudo chsh -s $(which zsh)
 
 # home
 stow --verbose --adopt --target ~ home
-
