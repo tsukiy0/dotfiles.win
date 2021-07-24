@@ -27,6 +27,7 @@ choco install -y insomnia-rest-api-client
 choco install -y adobe-creative-cloud
 choco install -y cura-new
 choco install -y via
+choco install -y blender
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
