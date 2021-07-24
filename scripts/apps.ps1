@@ -23,6 +23,7 @@ choco install -y slack
 choco install -y autohotkey
 choco install -y postman
 choco install -y insomnia-rest-api-client
+choco install -y adobe-creative-cloud
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
