@@ -28,6 +28,7 @@ choco install -y adobe-creative-cloud
 choco install -y cura-new
 choco install -y via
 choco install -y blender
+choco install -y autodesk-fusion360
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
