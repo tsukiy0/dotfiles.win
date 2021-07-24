@@ -3,6 +3,7 @@ choco install -y git
 choco install -y nvm
 choco install -y dotnetcore-sdk
 choco install -y dotnet-5.0-sdk
+choco install -y dotnetcore-3.1-sdk
 choco install -y dotnetcore-2.2-sdk
 choco install -y awscli
 choco install -y vim
