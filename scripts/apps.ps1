@@ -12,6 +12,7 @@ choco install -y ffmpeg
 # gui
 choco install -y microsoft-windows-terminal
 choco install -y googlechrome
+choco install -y chromium
 choco install -y vscode
 choco install -y powertoys
 choco install -y docker-desktop
