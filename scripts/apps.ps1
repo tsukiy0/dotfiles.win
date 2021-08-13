@@ -30,6 +30,7 @@ choco install -y cura-new
 choco install -y via
 choco install -y blender
 choco install -y autodesk-fusion360
+choco install -y wireshark
 
 # jabba
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
