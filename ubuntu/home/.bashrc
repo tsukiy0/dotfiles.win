@@ -10,3 +10,9 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
+
+# aws
+WINHOME=wslpath "$(wslvar USERPROFILE)"
+export AWS_SHARED_CREDENTIALS_FILE=${WINHOME}/.aws/credentials
+export AWS_CONFIG_FILE=${WINHOME}/.aws/config
+
