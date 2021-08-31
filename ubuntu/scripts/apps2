@@ -1,0 +1,9 @@
+#! /bin/bash
+
+set -euxo pipefail
+
+# npm
+nvm install 12
+nvm install 14
+nvm alias default 14 
+npm install -g yarn
