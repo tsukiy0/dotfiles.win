@@ -14,7 +14,8 @@ sudo apt install -y \
     jq \
     curl \
     build-essential \
-    awscli
+    awscli \
+    python3-venv
 
 function install_dotnet() {
     if ! command -v dotnet &> /dev/null
