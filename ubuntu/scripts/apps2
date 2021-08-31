@@ -2,8 +2,13 @@
 
 set -euxo pipefail
 
-# npm
+# node
 nvm install 12
 nvm install 14
 nvm alias default 14 
 npm install -g yarn
+
+# python
+PYTHON_VERSION=3.9.6
+pyenv install ${PYTHON_VERSION}
+pyenv global ${PYTHON_VERSION}
