@@ -12,7 +12,18 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
 # aws
-WINHOME=wslpath "$(wslvar USERPROFILE)"
+## https://github.com/microsoft/WSL/issues/5065
+fix_wsl2_interop() {
+    for i in $(pstree -np -s $$ | grep -o -E '[0-9]+'); do
+        if [[ -e "/run/WSL/${i}_interop" ]]; then
+            export WSL_INTEROP=/run/WSL/${i}_interop
+        fi
+    done
+}
+fix_wsl2_interop
+
+WINHOME=$(wslpath "$(wslvar USERPROFILE)")
+echo $WINHOME
 export AWS_SHARED_CREDENTIALS_FILE=${WINHOME}/.aws/credentials
 export AWS_CONFIG_FILE=${WINHOME}/.aws/config
 
