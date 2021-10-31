@@ -26,6 +26,3 @@ WINHOME=$(wslpath "$(wslvar USERPROFILE)")
 echo $WINHOME
 export AWS_SHARED_CREDENTIALS_FILE=${WINHOME}/.aws/credentials
 export AWS_CONFIG_FILE=${WINHOME}/.aws/config
-
-# increase file watchers
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
